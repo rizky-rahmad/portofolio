@@ -51,12 +51,30 @@
         <ul>
           <li><a href="#hero" class="active">Home<br></a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+         <li><a href="#resume">Resume</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
     </div>
   </header>
 
@@ -65,7 +83,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/FOTO.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/foto.jpg" alt="" data-aos="fade-in">
 
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
         <h2>RAHMAD RIZKI</h2>
@@ -144,6 +162,18 @@
         <div class="row">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <!--<h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Brandon Johnson</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div>-->
+
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Associate’s Degree</h4>
@@ -210,12 +240,9 @@
 
     </section><!-- /Resume Section -->
 
-   
-
     <!-- Stats Section -->
 
     <section id="stats" class="stats section accent-background">
-
 
       <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
 
@@ -257,7 +284,126 @@
 
     </section><!-- /Stats Section -->
 
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
 
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Some Work I have done</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-design">Design</li>
+            <li data-filter=".filter-website">Website</li>
+            <!--<li data-filter=".filter-branding">Branding</li>
+            <li data-filter=".filter-books">Books</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Instagram Post</h4>
+                <p>Selasa, 11 April 2023, JPU Kejaksaan Negeri Aceh Besar terima penyerahan tersangka dan barang bukti (Tahap II) dalam perkara Tindak Pidana Narkotika jenis Ganja dan Sabu dan telah diserahkan ke Rutan Kelas IIB Jantho</p>
+                <a href="assets/img/portfolio/1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://www.instagram.com/p/Cq65PfDSQgb/" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Instagram Post</h4>
+                <p>JPU Kejari Aceh Besar Terima Penyerahan Tersangka dan Barang Bukti (Tahap II) Dari Penyidik Polda Aceh An. Tersangka MI Yang Disangkakan Telah Melakulan Tindak Pidana Pencabulan Terhadap Anak</p>
+                <a href="assets/img/portfolio/3.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://www.instagram.com/p/CqDLOXwyVej/" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Instagram Post</h4>
+                <p>Kajari Aceh Besar menyerahkan DIPA Tahun 2023 Kepada Seluruh Kasi dan Kasubbag pada Kejari Aceh Besar</p>
+                <a href="assets/img/portfolio/2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://www.instagram.com/p/Cm6KuLsyaXL/?img_index=1" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <img src="assets/img/portfolio/web1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website AGC-SCOPUS 2019</h4>
+                <p>AGC-SCOPUS 2019 - The 2nd ACEH GLOBAL CONFERENCE 2019</p>
+                <a href="assets/img/portfolio/web1.png" title="AGC-SCOPUS 2019 - The 2nd ACEH GLOBAL CONFERENCE 2019" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://arsip.agc-scopos.usk.ac.id/" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <img src="assets/img/portfolio/web2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website AGC-SCOPUS 2019</h4>
+                <p>AGC-SCOPUS 2019 - The 2nd ACEH GLOBAL CONFERENCE 2019</p>
+                <a href="assets/img/portfolio/web2.png" title="AGC-SCOPUS 2019 - The 2nd ACEH GLOBAL CONFERENCE 2019" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://arsip.agc-scopos.usk.ac.id/" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <img src="assets/img/portfolio/web3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website AGC-SCOPUS 2019</h4>
+                <p>AGC-SCOPUS 2019 - The 2nd ACEH GLOBAL CONFERENCE 2019</p>
+                <a href="assets/img/portfolio/web3.png" title="AGC-SCOPUS 2019 - The 2nd ACEH GLOBAL CONFERENCE 2019" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://arsip.agc-scopos.usk.ac.id/" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <img src="assets/img/portfolio/web4.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website AGC-SCOPUS 2019</h4>
+                <p>AGC-SCOPUS 2019 - The 2nd ACEH GLOBAL CONFERENCE 2019</p>
+                <a href="assets/img/portfolio/web4.png" title="AGC-SCOPUS 2019 - The 2nd ACEH GLOBAL CONFERENCE 2019" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://arsip.agc-scopos.usk.ac.id/" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <img src="assets/img/portfolio/MI1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website College</h4>
+                <p>D3 Manajemen Informatika</p>
+                <a href="assets/img/portfolio/MI1.jpg" title="" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/MI1.jpg" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <img src="assets/img/portfolio/MI 2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website College</h4>
+                <p>D3 Manajemen Informatika</p>
+                <a href="assets/img/portfolio/MI 2.png" title="" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/MI 2.png" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -275,7 +421,7 @@
 
             <div class="col-lg-4">
               <div class="info-item d-flex align-items-center">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <a href="https://www.google.com/maps/place/Banda+Aceh,+Kota+Banda+Aceh,+Aceh/@5.5611859,95.2875024,13z/data=!3m1!4b1!4m6!3m5!1s0x3040377ae63dbcdf:0x3039d80b220cb90!8m2!3d5.5482904!4d95.3237559!16zL20vMDR0MnZq?authuser=0&entry=ttu" target="_blank"><i class="bi bi-geo-alt flex-shrink-0"></i></a>
                 <div>
                   <h3>Address</h3>
                   <p>Banda Aceh, Indonesia</p>
@@ -285,7 +431,7 @@
 
             <div class="col-lg-4">
               <div class="info-item d-flex align-items-center">
-                <i class="bi bi-telephone flex-shrink-0"></i>
+                <a href="https://wa.me/6282365434655" target="_blank"><i class="bi bi-telephone flex-shrink-0"></i></a>
                 <div>
                   <h3>Call Me</h3>
                   <p>+62 823 6543 4655</p>
@@ -297,7 +443,7 @@
               <div class="info-item d-flex align-items-center">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email Us</h3>
+                  <h3>Email</h3>
                   <p>rizky.business7@gmail.com</p>
                 </div>
               </div>
@@ -318,17 +464,17 @@
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Rahmad Rizki</strong> <span>All Rights Reserved</span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <!--<a href=""><i class="bi bi-twitter-x"></i></a>
+       <a href=""><i class="bi bi-facebook"></i></a> -->
+        <a href="https://www.instagram.com/rrizki912/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/rahmad-rizki-1728a6186/" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by Rahmad Rizki</a>
       </div>
     </div>
 
